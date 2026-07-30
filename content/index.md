@@ -1,3 +1,3 @@
 ---
-title: Welcome to Shin Rag's Notes
+title: Welcome to Shin Rag's Note
 ---
