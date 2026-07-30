@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+body.theme-dark mjx-container[jax="SVG"] > svg a {
+  color: #0095cd;
+  fill: #0095cd;
+}

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Shin Rag's Notes
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -31,7 +31,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
+        light: "#282c33"
         lightgray: "#393639"
         gray: "#646464"
         darkgray: "#d4d4d4"
@@ -84,7 +84,10 @@ plugins:
   - source: "@quartz-community/latex"
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
+      mathJaxOptions:
+        tex:
+          tags: "ams"
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
@@ -153,7 +156,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
