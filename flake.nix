@@ -22,9 +22,6 @@
             buildInputs = [
               pkgs.nodejs
             ];
-            shellHook = ''
-              npm i
-            '';
           };
       });
     };
